@@ -11,6 +11,7 @@ test('测试加法3-3',()=>{
 
 test('测试加法3*3',()=>{
     expect(multi(3,3)).toBe(9)
+    console.log(111)
 })
 //单元测试/集成测试
 // npm run jest 
