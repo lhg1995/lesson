@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js add axios@0.19.0 --save
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/liuhongguang/Library/Caches/Yarn/v6/npm-kind-of-5.1.0-729c91e2d857b7a419a1f9aa65685c4c33f5845d-integrity/node_modules/kind-of/LICENSE' -> '/Users/liuhongguang/lesson2/node_modules/define-property/node_modules/kind-of/LICENSE'
+
+npm manifest: 
+  {
+    "name": "lesson2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+      "coverage": "jest --coverage"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.4.5",
+      "@babel/preset-env": "^7.4.5",
+      "jest": "^24.8.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
